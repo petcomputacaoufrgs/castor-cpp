@@ -30,13 +30,13 @@
         {
             "type": "cppbuild",
             "label": "gpp build active file windows",
-            "command": "..\\compiladores\\windows\\w64devkit\\bin\\g++.exe",
+            "command": "g++",
             "args": [
                 "-Wall",
                 "-fanalyzer",
                 "-fdiagnostics-color=always",
                 "-g",
-                "${fileDirname}\\*.cpp",
+                "${fileDirname}/*.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}.exe",
                 "-lm",
